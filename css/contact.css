@@ -1,0 +1,55 @@
+html{
+    background-color: #32FF95;
+}
+
+
+body{
+    
+    background-color: #22E8BA;
+}
+.jumbotron{
+
+background-color:#22E8BA;
+}
+
+nav {
+    background-color: #32FF95;
+}
+
+.optionsCard{
+ width: 50%;
+    background-color: #22E84A;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    float: left;
+    padding-bottom: 1rem;
+    
+}
+
+.optionsCard img{
+    width: 100%;
+}
+
+main{
+    background-color: #32FF95;
+}
+
+
+
+
+
+footer{
+    clear: left;
+    background-color: #22E8BA;
+}
+@media screen and (min-width:600px) and (max-width:799px) {
+
+    .optionsCard{
+    width: 25%;
+}
+    
+.optionsCard img{
+    width: 100%;
+}
+}

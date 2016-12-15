@@ -1,0 +1,92 @@
+html {
+    background-color: #32FF95;
+    font-family: 'Open Sans', 'Lato', sans-serif;
+}
+
+body {
+    background-color: #22E8BA;
+    font-family: 'Slabo 27px', 'Times New Rowman', serif;
+}
+
+.jumbotron {
+    background-color: #22E8BA;
+    font-family: 'Open Sans', 'Lato', sans-serif;
+}
+
+nav {
+    background-color: #32FF95;
+}
+
+#map{
+    width: 95%;
+        display: block;
+    text-align: center;
+}
+
+
+/*MOBILE FIRST*/
+
+.optionsCard {
+    width: 95%;
+    background-color: #D1FFC1;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1rem;
+    float: left;
+    padding-bottom: 1rem;
+/*    border-radius: 5px;*/
+    display: block;
+
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+
+}
+
+#whatIdo{
+        width: 100%;
+}
+
+.optionsCard img {
+    width: 100%;
+    text-align: center;
+}
+.optionsCard:nth-child()
+
+main {
+    background-color: #32FF95;
+}
+.card-blockquote footer{
+    background: none;
+}
+
+form{
+    width: 95%;
+}
+
+footer {
+    clear: left;
+    background-color: #32FF95;
+}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+/*
+
+@media screen and (min-width:600px) and (max-width:799px) {
+    .optionsCard {
+        width: 35%;
+    }
+    .optionsCard img {
+        width: 100%
+    }
+
+}*/
